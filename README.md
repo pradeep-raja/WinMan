@@ -1,4 +1,4 @@
-#Windows Manager (WinMan)
+# Windows Manager (WinMan)
 
 **Build**
 
