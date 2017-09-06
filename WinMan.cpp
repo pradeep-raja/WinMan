@@ -54,18 +54,6 @@ BOOL CWinManApp::InitInstance()
 	Enable3dControlsStatic();	// Call this when linking to MFC statically
 #endif
 
-	/*char winDir[MAX_PATH];
-	int len = GetWindowsDirectory(winDir,MAX_PATH);
-	winDir[len] = 0;
-	CString s(winDir);
-	s = s + "\\" + "msload.log";
-	CFile f;
-	if(!f.Open(s,CFile::modeRead))
-	{
-		return FALSE;
-	}*/
-	
-
 	CWinManDlg dlg;
 	m_pMainWnd = &dlg;
 	int nResponse = dlg.DoModal();
